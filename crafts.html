@@ -3,9 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mystyle.css"> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <style>
+    @media (min-width: 500px) {
+        h1::before {
+            content: "Welcome to Just5minutes!";
+        }
+    }
+
+    @media (max-width: 499px) {
+        h1::before {
+            content: "Welcome!";
+        }
+    }
+</style>
     <title>Document</title>
 </head>
 <body>
-    
+    <div class="container">
+    <h1></h1>
+    <div class="topnav">
+        <a href="index.html">Home</a>
+        <a href="reciepes.html">Receipes</a>
+        <a href="crafts.html">Crafts</a>
+        <a href="Shareyourideas.html">Share Us</a>
+    </div>    
+    <div >
+     <ol>
+         <li>Origami Animals</li>
+            <ol type="i">
+            <li> Origami whales</li>   
+            <li> Origami Fish</li>  
+            <li> Origami Jumping Frog</li>  
+            <li> Origami Dog</li>  
+            <li> Origami Rabbit</li>  
+            <li> Origami Cat</li>  
+            <li> Origami Dragon</li>  
+            </ol>
+        <li>Origami Fairy tales</li>
+            <ol>
+            <li> Origami Crown</li>  
+            <li> Origami Mermaid</li>
+            <li> Origami Ring</li>  
+            <li> Origami unicorn</li> 
+
+            </ol>
+     </ol>
+    </div>
+    </div>
 </body>
 </html>

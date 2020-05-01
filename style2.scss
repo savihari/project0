@@ -1,0 +1,35 @@
+$titlecolor: #F44336;
+
+h3{
+color:$titlecolor;
+}
+
+.container{
+    h4{
+       font-size: 25px;
+       color:darkmagenta;
+    }
+    
+    p{
+       font-size: 25px;
+       color:darkslateblue;
+    }
+}
+.button-basic  {
+   border: none;
+   padding: 15px 30px;
+   text-align: center;
+   font-size: 16px;
+   cursor: pointer;
+ }
+ 
+ .button-clear  {
+   @extend .button-basic;
+   background-color: blue;
+ }
+ 
+ .button-submit  {
+   @extend .button-basic;
+   background-color: green;
+   color: white;
+ }
