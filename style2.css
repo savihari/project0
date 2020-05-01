@@ -1,0 +1,31 @@
+h3 {
+  color: #F44336;
+}
+
+.container h4 {
+  font-size: 25px;
+  color: darkmagenta;
+}
+
+.container p {
+  font-size: 25px;
+  color: darkslateblue;
+}
+
+.button-basic, .button-clear, .button-submit {
+  border: none;
+  padding: 15px 30px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button-clear {
+  background-color: blue;
+}
+
+.button-submit {
+  background-color: green;
+  color: white;
+}
+/*# sourceMappingURL=style2.css.map */
